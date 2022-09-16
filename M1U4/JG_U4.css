@@ -9,8 +9,16 @@ h1 {
     text-align: center;
 }
 
-h2 {}
+h2, h3 {
+    text-align: center;
+}
+
+.formulario {
+    color: rgb(196, 109, 160);
+    font-size: larger;
+    font-weight: bold;
+}
 
 a:hover {
-    background-color:  rgb(221, 71, 159;
+    background-color:  rgb(196, 109, 160);
 }
