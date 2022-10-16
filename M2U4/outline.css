@@ -1,0 +1,58 @@
+/* fonts  */
+/* paleta colores #89a55d #DAD992 #E6DF9A #F3ED9E #FFFEA9 */
+
+nav {
+    background-color: #E6DF9A;
+}
+
+#iconohoja {
+    color: #89a55d;
+}
+
+#home {
+    background-color: #c5df9b;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    box-sizing: border-box;
+}
+
+#bio {
+    display: flex;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #DAD992;
+}
+
+#carrusel {
+    background-color: #bcd494;
+}
+
+img {
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: auto;
+}
+
+#videos {
+    background-color: #dfdd8d;
+}
+
+.card {
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    background-color: #89a55d;
+    border: 4px solid #c5df9b; 
+}
+
+.btn-primary:hover {
+    background-color: #5f7254da;
+    border-color: #5d7a55;
+}
