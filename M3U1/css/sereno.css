@@ -83,7 +83,7 @@ nav ul li a:hover {
     line-height: normal;
     font-size: 20px;
     text-align: justify;
-    
+
 }
 
 .carlos {
@@ -123,6 +123,62 @@ nav ul li a:hover {
     text-align: center;
 }
 
+.servicios p {
+    margin: 3%;
+}
+
+.galeria {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.galeria img {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: auto;
+    border-radius: 5%;
+    max-width: 24%;
+    padding: 10px;
+}
+
+.formulario {
+    margin: 4%;
+    box-sizing: border-box;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p label {
+    min-width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.formulario p input,
+.formulario p textarea {
+    width: 60%;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 120px;
+}
+
+.formulario p:nth-child(5) {
+    align-items: start;
+}
+
+.formulario [type="submit"] {
+    color: whitesmoke;
+    background-color: #64b0e2f1;
+    width: auto;
+    position: relative;
+    cursor: pointer;
+    left: 40%;
+}
 
 footer p {
     color: #64b0e2f1;
