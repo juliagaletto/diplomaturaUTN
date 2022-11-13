@@ -1,0 +1,17 @@
+.boton {
+    height: 150px;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+#rosa {
+    background-color: rgb(235, 166, 178);
+}
+
+#lila {
+    background-color: rgb(196, 135, 196);
+}
+
+#celeste {
+    background-color: rgb(62, 199, 233);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="Ejercicio1.css">
+
+</head>
+
+<body>
+    <p>
+        <button class="boton" id="rosa"></button>
+        &nbsp;
+        <button class="boton" id="lila"></button>
+        &nbsp;
+        <button class="boton" id="celeste"></button>
+    </p>
+
+    <script>
+
+        const body = document.getElementsByTagName('body')[0];
+        const rosa = document.getElementById('rosa');
+        const lila = document.getElementById('lila');
+        const celeste = document.getElementById('celeste');
+
+
+        rosa.onclick = function (event) {
+            body.style.backgroundColor = 'rgb(235, 166, 178)'
+        }
+
+        lila.onclick = function (event) {
+            body.style.backgroundColor = 'rgb(196, 135, 196)'
+        }
+
+        celeste.onclick = function (event) {
+            body.style.backgroundColor = ' rgb(62, 199, 233)'
+        }
+
+    </script>
+
+</body>
+
+</html>
