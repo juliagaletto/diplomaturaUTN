@@ -1,6 +1,8 @@
 const Footer = (props) => {
     return (
-        <h1>Hola soy el footer</h1>
+        <footer>
+            <p>Julia Galetto &copy;2022</p>
+        </footer>
     )
 }
 

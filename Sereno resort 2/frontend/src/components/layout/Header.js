@@ -1,6 +1,10 @@
 const Header = (props) => {
     return (
-        <h1>Hola soy el header</h1>
+        <header className="holder">
+            <div className="fondo">
+                <h1>Sereno Resort</h1>
+            </div>
+        </header>
     )
 }
 
