@@ -1,20 +1,19 @@
-import Home from "../../pages/Home";
-import Nosotros from "../../pages/Nosotros";
-import Servicios from "../../pages/Servicios";
-import Galeria from "../../pages/Servicios";
-import Contacto from "../../pages/Contacto";
+import React from 'react';
 
+import { Link } from "react-router-dom";
 
 const Nav = (props) => {
     return (
         <nav className="barranav">
-            <ul className="holder">
-                <li>Home</li> <Home />
-                <li>Nosotros</li> <Nosotros />
-                <li>Servicios</li> <Servicios />
-                <li>Galería</li> <Galeria />
-                <li>Contacto</li> <Contacto />
-            </ul>
+            <div className="holder">
+                <ul>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/nosotros">Nosotros</Link></li>
+                    <li><Link to="/servicios">Servicios</Link></li>
+                    <li><Link to="/galeria">Galeria</Link></li>
+                    <li><Link to="/contacto">Contacto</Link></li>
+                </ul>
+            </div>
         </nav>
     )
 }
