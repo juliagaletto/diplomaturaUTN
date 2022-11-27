@@ -4,6 +4,9 @@ import '../styles/components/pages/Contacto.css';
 const Contacto = (props) => {
     return (
         <main className="holder">
+
+            <h4>Si tiene alguna consulta o quiere realizar una reserva, por favor complete el siguiente formulario y nos contáctaremos a la brevedad.</h4>
+
             <div className="contactoform">
                 <form className="formulario" action="">
                     <p> <label for="nombre">Nombre</label>

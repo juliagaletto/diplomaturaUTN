@@ -9,6 +9,7 @@
 }
 
 .nosotros {
+    margin: 3%;
     display: inline-flex;
     flex-direction: row;
     gap: 5%;
@@ -31,5 +32,5 @@
     align-items: center;
     margin-top: 3%;
     line-height: normal;
-    text-align: center;
+    text-align: justify;
 }

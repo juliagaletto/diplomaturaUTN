@@ -1,4 +1,5 @@
 .galeria {
+    margin: 3%;
     display: inline-flex;
     flex-direction: row;
 }

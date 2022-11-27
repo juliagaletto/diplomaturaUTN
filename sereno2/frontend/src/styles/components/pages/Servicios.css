@@ -1,3 +1,19 @@
-.servicios p {
+.servicios {
     margin: 3%;
+}
+
+.servicio {
+    margin: 15px 0;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.servicio img {
+    width: 10%;
+    height: auto;
+}
+
+.servicio:nth-child(even) {
+    flex-direction: row-reverse;
 }

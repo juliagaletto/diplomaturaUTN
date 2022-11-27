@@ -1,4 +1,6 @@
 import React from 'react';
+
+
 import '../styles/components/pages/Galeria.css';
 
 const Galeria = (props) => {
@@ -15,3 +17,4 @@ const Galeria = (props) => {
 }
 
 export default Galeria;
+
