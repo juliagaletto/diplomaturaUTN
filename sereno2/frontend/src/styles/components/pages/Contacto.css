@@ -30,8 +30,12 @@
 .formulario [type="submit"] {
     color: whitesmoke;
     background-color: #64b0e2f1;
+    border: #3b4b55f1;
+    text-shadow: 0 0 3px rgb(20, 20, 20);
+    font-size: 15px;
+    padding: 7px;
     width: auto;
     position: relative;
     cursor: pointer;
-    left: 40%;
+    left: 55%;
 }
