@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 import React from 'react';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -22,10 +22,10 @@ function App() {
         <Nav />
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='nosotros' element={<Nosotros />} />
-          <Route path='servicios' element={<Servicios />} />
-          <Route path='galeria' element={<Galeria />} />
-          <Route path='contacto' element={<Contacto />} />
+          <Route path='/nosotros' element={<Nosotros />} />
+          <Route path='/servicios' element={<Servicios />} />
+          <Route path='/galeria' element={<Galeria />} />
+          <Route path='/contacto' element={<Contacto />} />
         </Routes>
       </BrowserRouter>
       <Footer />

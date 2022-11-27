@@ -1,0 +1,36 @@
+.carlos {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.susana {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.nosotros {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+
+.nosotros img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 45%;
+    border-radius: 10%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.nosotros p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    line-height: normal;
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+.galeria {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.galeria img {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: auto;
+    border-radius: 5%;
+    max-width: 24%;
+    padding: 10px;
+}

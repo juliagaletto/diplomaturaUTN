@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/components/pages/Home.css';
 
 const Home = (props) => {
     return (
         <main className="holder">
-            <div className="siquiman">
+            <div className="home">
                 <img src="img/desayuno.jpg" alt="Desayuno Villa Parque Siquiman" />
                 <p> DESCRIPCION DEL SERVICIO GENERAL <br></br> <br></br>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, laborum? Dignissimos obcaecati,

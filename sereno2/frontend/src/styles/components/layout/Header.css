@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Balsamiq+Sans&display=swap');
+
+header h1 {
+    color: aliceblue;
+    font-family: 'Bad Script', cursive;
+    font-size: 45px;
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    margin-left: 15%;
+    text-shadow: 0 0 6px rgb(20, 20, 20);
+}
+
+.fondo {
+    height: 200px;
+    box-sizing: border-box;
+    background-image: url("/public/img/siquiman.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

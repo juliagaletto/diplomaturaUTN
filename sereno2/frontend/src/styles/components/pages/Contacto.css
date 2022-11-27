@@ -1,0 +1,37 @@
+.formulario {
+    margin: 4%;
+    box-sizing: border-box;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p label {
+    min-width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.formulario p input,
+.formulario p textarea {
+    width: 60%;
+}
+
+.formulario textarea {
+    resize: none;
+    height: 120px;
+}
+
+.formulario p:nth-child(5) {
+    align-items: start;
+}
+
+.formulario [type="submit"] {
+    color: whitesmoke;
+    background-color: #64b0e2f1;
+    width: auto;
+    position: relative;
+    cursor: pointer;
+    left: 40%;
+}

@@ -1,0 +1,20 @@
+.home {
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+
+
+.home img {
+    max-width: 40%;
+    border-radius: 20px;
+    margin: 3%;
+}
+
+.home p {
+    margin: 3%;
+    line-height: normal;
+    font-size: 20px;
+    text-align: justify;
+
+}

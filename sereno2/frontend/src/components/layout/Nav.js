@@ -1,11 +1,12 @@
 import React from 'react';
+import '../../styles/components/layout/Nav.css';
 
 import { Link } from "react-router-dom";
 
 const Nav = (props) => {
     return (
-        <nav className="barranav">
-            <div className="holder">
+        <nav className="holder">
+            <div className="barranav">
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/nosotros">Nosotros</Link></li>
