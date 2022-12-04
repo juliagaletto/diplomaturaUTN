@@ -1,6 +1,11 @@
-h4 {
+.contacto {
     margin: 3%;
 }
+
+h6 {
+    margin: 4%;
+    text-align: justify;
+} 
 
 .formulario {
     margin: 4%;

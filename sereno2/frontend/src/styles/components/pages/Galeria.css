@@ -1,15 +1,5 @@
-.galeria {
-    margin: 3%;
-    display: inline-flex;
-    flex-direction: row;
+.galeria img {
+    padding: 3%;
+
 }
 
-.galeria img {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    margin: auto;
-    border-radius: 15px;
-    max-width: 20%;
-    padding: 10px;
-}
