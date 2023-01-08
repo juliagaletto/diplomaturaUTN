@@ -1,1 +1,22 @@
- <h1 class="holder">Próximamente armado y funcionamiento del LOGIN</h1>
+<div class="container holder" style="margin-top:100px;">
+    <div class="row">
+        <form action="/admin/login" method="post">
+            <div class="mb-2 row">
+                <div class="col-sm-5">
+                    <input type="text" class="form-control" id="inputUser" placeholder="Usuario" name="usuario">
+                </div>
+            </div>
+            <div class="mb-2 row">
+                <div class="col-sm-5">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña"
+                        name="password">
+                </div>
+            </div>
+            <button type="submit" class="btn">Ingresar</button>
+        </form>
+        {{#if error}}
+        
+        <p></br>Por favor, verifique que el usuario y la contraseña sean correctos.</p>
+        {{/if}}
+    </div>
+</div>

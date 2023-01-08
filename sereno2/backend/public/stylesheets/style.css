@@ -60,6 +60,14 @@ nav ul li a:hover {
   color: whitesmoke;
 }
 
+.btn {
+  padding: 2.5px;
+  background-color: #0a5a3fc9;
+  border-color: #0a1f5ac9;
+  color: whitesmoke;
+  max-width: fit-content;
+}
+
 footer p {
   color: #64b0e2f1;
   margin: 0;
