@@ -1,12 +1,12 @@
 var pool = require('./bd');
 
-async function getNovedades() {
+async function getPromociones() {
     var query = 'select * from promociones';
     var rows = await pool.query(query);
     return rows;
 }
 
-async function insertNovedad(obj) {
+async function insertPromocion(obj) {
     try {
     var query = "insert into promociones set ? ";
     var rows = await pool.query(query, [obj]);
@@ -18,4 +18,4 @@ async function insertNovedad(obj) {
     
 }
 
-module.exports = { getNovedades, insertNovedad }
+module.exports = { getPromociones, insertPromocion }

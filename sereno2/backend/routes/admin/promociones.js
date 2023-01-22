@@ -1,15 +1,15 @@
 var express = require('express');
 var router = express.Router();
-var novedadesModel = require('../../models/novedadesModel');
+var promocionesModel = require('../../models/promocionesModel');
 
 router.get('/', async function (req, res, next) {
 
-    var novedades = await novedadesModel.getNovedades();
+    var promociones = await promocionesModel.getPromociones();
 
-    res.render('admin/novedades', {
+    res.render('admin/promociones', {
         layout: 'admin/layout',
         persona: req.session.nombre,
-        novedades
+        promociones
     });
 });
 
@@ -23,8 +23,8 @@ router.get('/agregar', (req, res, next) => {
 router.post('/agregar', async (req, res, next) => {
     try {
         if (req.body.titulo != "" && req.body.subtitulo != "" && req.body.cuerpo != "") {
-            await novedadesModel.insertNovedad(req.body);
-            res.redirect('/admin/novedades')
+            await promocionesModel.insertPromocion(req.body);
+            res.redirect('/admin/promociones')
         } else {
             res.render('admin/agregar', {
                 layout: 'admin/layout',
