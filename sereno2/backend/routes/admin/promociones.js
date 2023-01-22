@@ -8,7 +8,7 @@ router.get('/', async function (req, res, next) {
 
     res.render('admin/promociones', {
         layout: 'admin/layout',
-        persona: req.session.nombre,
+        usuario: req.session.nombre,
         promociones
     });
 });
