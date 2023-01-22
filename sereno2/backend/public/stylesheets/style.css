@@ -68,6 +68,10 @@ nav ul li a:hover {
   max-width: fit-content;
 }
 
+.fa-regular {
+  padding: 5px;
+}
+
 footer p {
   color: #64b0e2f1;
   margin: 0;
