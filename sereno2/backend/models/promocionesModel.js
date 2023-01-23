@@ -8,7 +8,7 @@ async function getPromociones() {
 
 async function insertPromocion(obj) {
     try {
-    var query = "insert into promociones set ? ";
+    var query = 'insert into promociones set ? ';
     var rows = await pool.query(query, [obj]);
     return rows;
 } catch(error) {
@@ -18,4 +18,10 @@ async function insertPromocion(obj) {
     
 }
 
-module.exports = { getPromociones, insertPromocion }
+async function deletePromocionById(id) {
+    var query = 'delete from promociones where id = ?';
+    var rows = await pool.query(query, [id]);
+    return rows;
+}
+
+module.exports = { getPromociones, insertPromocion, deletePromocionById }
