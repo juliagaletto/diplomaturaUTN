@@ -23,8 +23,9 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col">#</th>
+                        {{!-- <th scope="col">#</th> --}}
                         <th scope="col">Promoción</th>
+                        <th scope="col">Descripción</th>
                         <th class="text-end">Editar | Eliminar</th>
                     </tr>
                 </thead>
@@ -32,10 +33,11 @@
 
                     {{#each promociones}}
                     <tr>
-                        <th scope="row">{{id}}</th>
+                        {{!-- <th scope="row">{{id}}</th> --}}
                         <td>{{titulo}}</td>
+                        <td>{{descripcion}}</td>
                         <td class="text-end">
-                            <a class='btn'><i class="fa-regular fa-pen-to-square" aria-hidden="true"></i></a>
+                            <a class='btn' href="/admin/promociones/editar/{{id}}"><i class="fa-regular fa-pen-to-square" aria-hidden="true"></i></a>
                             <a class='btn' href="/admin/promociones/eliminar/{{id}}" ><i class="fa-regular fa-trash-can"></i></a>
                         </td>
                     </tr>

@@ -8,13 +8,11 @@
                     <input type="text" class="form-control" placeholder="Título" name="titulo">
                 </div>
                 <div class="mb-3 row">
-                    <textarea type="text" class="form-control" placeholder="Subtítulo" name="subtitulo"></textarea>
-                </div>
-                <div class="mb-3 row">
-                    <textarea type="text" class="form-control" placeholder="Descripción" name="cuerpo"></textarea>
+                    <textarea type="text" class="form-control" placeholder="Descripción" name="descripcion"></textarea>
                 </div>
                 <button type="submit" class="btn">Guardar</button>
             </form>
+            
             {{#if error}}
             <p style="margin-top: 2%;">{{message}}</p>
             {{/if}}

@@ -49,4 +49,41 @@ router.get('/eliminar/:id', async (req, res, next) => {
     res.redirect('/admin/promociones');
 });
 
+router.get('/editar/:id', async (req, res, next) => {
+    var id = req.params.id;
+    var promocion = await promocionesModel.getPromocionById(id);
+
+    res.render('admin/editar', {
+        layout: 'admin/layout',
+        promocion
+    })
+
+});
+
+router.post('/editar', async (req, res, next) => {
+    try {
+        var obj = {
+            titulo: req.body.titulo,
+            descripcion: req.body.descripcion
+        }
+        console.log(obj)
+
+        await promocionesModel.editarPromocionById(obj, req.body.id);
+        res.redirect('/admin/promociones');
+        
+    } catch (error) {
+        console.log(error)
+        res.render('admin/editar', {
+            layout: 'admin/layout',
+            error: true,
+            message: 'No se editó la promoción. Intente nuevamente.'
+        })
+    }
+
+});
+
+
+
+
+
 module.exports = router;
