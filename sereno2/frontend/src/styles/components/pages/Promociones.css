@@ -1,0 +1,25 @@
+h6 {
+    text-align: center;
+    padding: 2%;
+}
+
+.promociones h6 {
+    color:  #87a5e7fa;
+    text-align: center;
+    padding: 0%;
+}
+
+.promociones div {
+    text-align: justify;
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 2% 6%;
+}
+
+
+img {
+    max-width: 75%;
+    padding: 2%;
+    display: block;
+    margin: auto;
+}
+

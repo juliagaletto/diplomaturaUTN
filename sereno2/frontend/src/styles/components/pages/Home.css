@@ -1,15 +1,26 @@
 .home {
+    font-family: 'Balsamiq Sans', cursive;
     margin: 3%;
-    display: flex;
     gap: 5%;
     align-items: center;
 }
 
+h5 {
+    text-align: center;
+}
+
+.enlace {
+   color:  #87a5e7fa;
+   text-decoration: none;
+   }
+
 
 .home img {
-    max-width: 40%;
-    border-radius: 15px;
+    max-width: 50%;
+    border-radius: 12%;
     margin: 3%;
+    display: block;
+    margin: auto;
 }
 
 .home p {

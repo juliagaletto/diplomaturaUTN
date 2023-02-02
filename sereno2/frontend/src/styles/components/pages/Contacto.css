@@ -1,10 +1,11 @@
 .contacto {
+    font-family: 'Balsamiq Sans', cursive;
     margin: 3%;
 }
 
 h6 {
-    margin: 4%;
-    text-align: justify;
+    margin: 2%;
+    text-align: center;
 } 
 
 .formulario {
@@ -17,22 +18,21 @@ h6 {
 }
 
 .formulario p label {
-    min-width: 30%;
+    min-width: 40%;
     display: flex;
     align-items: center;
 }
 
 .formulario p input,
 .formulario p textarea {
-    width: 60%;
+    width: 70%;
 }
 
 .formulario textarea {
-    resize: none;
     height: 120px;
 }
 
-.formulario p:nth-child(5) {
+.formulario p:nth-child(4) {
     align-items: start;
 }
 
@@ -46,5 +46,5 @@ h6 {
     width: auto;
     position: relative;
     cursor: pointer;
-    left: 55%;
+    left: 90%;
 }

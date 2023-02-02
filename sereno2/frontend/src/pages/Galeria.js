@@ -11,54 +11,58 @@ const Galeria = (props) => {
                     <img
                         className="d-block w-100"
                         src="img/cartel.jpg"
-                        alt="First slide"
+                        alt="Villa Parque Síquiman"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <p>Entrada a Villa Parque Síquiman desde la ruta.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
                         src="img/veleros.jpg"
-                        alt="Second slide"
+                        alt="Carrera de veleros"
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Carrera de veleros desde el deck de Sereno.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
-                
+
 
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
                         src="img/deck.jpg"
-                        alt="Third slide"
+                        alt="Deck"
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
+                        <p>¿Salen unos mates acá, qué decís?</p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="img/desayuno.jpg"
-                        alt="Fourth slide"
+                        src="img/ventanal.jpg"
+                        alt="Ventanal"
                     />
 
                     <Carousel.Caption>
-                        <h3>Fourth slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
+                        <p>Mirá esta vista, una belleza.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src="img/cocina.jpg"
+                        alt="Cocina equipada"
+                    />
+
+                    <Carousel.Caption>
+                        <p>Cocina totalmente equipada.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
 

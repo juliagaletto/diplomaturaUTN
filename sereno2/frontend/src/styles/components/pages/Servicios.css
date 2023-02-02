@@ -1,5 +1,6 @@
 .servicios {
     margin: 3%;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 .servicio {
@@ -10,7 +11,7 @@
 }
 
 .servicio img {
-    width: 10%;
+    width: 15%;
     height: auto;
 }
 

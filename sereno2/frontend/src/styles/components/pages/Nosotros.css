@@ -10,6 +10,7 @@
 
 .nosotros {
     margin: 3%;
+    font-family: 'Balsamiq Sans', cursive;
     display: inline-flex;
     flex-direction: row;
     gap: 5%;
@@ -31,6 +32,6 @@
     justify-content: center;
     align-items: center;
     margin-top: 3%;
-    line-height: normal;
+    line-height: 25px;
     text-align: justify;
 }

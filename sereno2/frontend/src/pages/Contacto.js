@@ -6,7 +6,7 @@ const Contacto = (props) => {
         <main className="holder">
             <div className="contacto">
 
-                <h6>Si tiene alguna consulta o quiere realizar una reserva, por favor complete el siguiente formulario y nos contáctaremos a la brevedad.</h6>
+                <h6>Si tenés alguna consulta o querés hacer una reserva, completá este formulario y nos contáctaremos con vos a la brevedad.</h6>
 
                 <div className="contactoform">
                     <form className="formulario" action="">
@@ -22,11 +22,8 @@ const Contacto = (props) => {
                             <input type="text" name="correo" />
                         </p>
 
-                        <p><label for="fecha">Fecha de reserva</label>
-                            <input type="text" name="fecha" />
-                        </p>
                         <p>
-                            <label for="consulta">Consulta</label>
+                            <label for="consulta">¿En qué podemos ayudarte?</label>
                             <textarea name="Consulta"></textarea>
                         </p>
                         <p>

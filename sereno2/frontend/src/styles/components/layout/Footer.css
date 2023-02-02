@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Balsamiq+Sans&display=swap');
+
 footer p {
     color: #64b0e2f1;
+    font-family: 'Balsamiq Sans', cursive;
     font-size: small;
     margin: 0;
-    padding-top: 10%;
+    padding: 2%;
     text-align: center;
 }

@@ -12,6 +12,7 @@ import Home from './pages/Home';
 import Nosotros from './pages/Nosotros';
 import Galeria from './pages/Galeria';
 import Servicios from './pages/Servicios';
+import Promociones from './pages/Promociones';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='/servicios' element={<Servicios />} />
           <Route path='/galeria' element={<Galeria />} />
           <Route path='/contacto' element={<Contacto />} />
+          <Route path='/promociones' element={<Promociones />} />
         </Routes>
       </BrowserRouter>
       <Footer />
