@@ -8,7 +8,7 @@ const Nosotros = (props) => {
                 <div className="carlos">
                     <img src="img/carlos.jpg" alt="Carlos" />
                     <p> Hola a todos, me presento, soy Carlos. Sereno para mí es un sueño. <br></br> Siempre me gustó que la gente que me visita, 
-                    se sienta cómoda y a gusto; eso es lo que deseo que suceda cuando vengan. Me apasiona la astronomía, la navegación, los perros y los helados. Sí, hay gustos para todo y por suerte el mío es bien variado. <br></br>
+                    se sienta cómoda y a gusto; eso es lo que deseo que suceda cuando vengan. <br></br> Me apasiona la astronomía, la navegación, los perros y los helados. Sí, hay gustos para todo y por suerte el mío es bien variado. <br></br>
                     Espero que disfruten de Sereno tanto como lo hice yo desde que comenzó siendo una idea hasta que se hizo realidad. <br></br>
                     Cada detalle de este espacio fue pensado con mucho amor. </p>
                 </div>

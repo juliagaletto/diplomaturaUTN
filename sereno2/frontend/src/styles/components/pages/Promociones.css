@@ -5,14 +5,14 @@ h6 {
 
 .promociones h6 {
     color:  #87a5e7fa;
+    font-family: 'Balsamiq Sans', cursive;
     text-align: center;
     padding: 0%;
 }
 
 .promociones div {
     text-align: justify;
-    font-family: 'Balsamiq Sans', cursive;
-    margin: 2% 6%;
+    margin: 2% 15%;
 }
 
 

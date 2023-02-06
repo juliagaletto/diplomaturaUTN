@@ -1,11 +1,11 @@
 .home {
-    font-family: 'Balsamiq Sans', cursive;
     margin: 3%;
     gap: 5%;
     align-items: center;
 }
 
 h5 {
+    font-family: 'Balsamiq Sans', cursive;
     text-align: center;
 }
 
